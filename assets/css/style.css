@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+  --main-bg:  #E5E5E5;
+  --header-bg: #264653;
+  --btn-bg: #E76F51;
+  --footer-bg: #0B0D17;
+  --footer-text: #D9DBE1;
+  --header-text: #E0E0E0;
+  --client-text: #6C6C6C;
+  --client-color: #23A6F0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.honda-fc {
+  color: var(--btn-bg);
+}
+
+.honda-fs-xs {
+  font-size: 0.88rem;
+}
+
+/* Header Section */
+.honda-header-bg {
+  background-color: var(--header-bg);
+}
+
+.honada-header-fc {
+  color: var(--header-text);
+}
+
+.honda-btn-bg {
+  background-color: var(--btn-bg);
+}
+
+.honda-fw-500 {
+  font-weight: 500;
+}
+
+.honda-fw-600 {
+  font-weight: 600;
+}
+
+
+/* Feature Section */
+.honda-grayscale {
+  filter: grayscale(1);
+}
+
+/* Client Section */
+.honda-card-img {
+  width: 149px;
+  height: 149px;
+  border-radius: 50%;
+}
+
+.honda-card-fc {
+  color: var(--client-text);
+}
+
+.honda-client-fc {
+  color: var(--client-color);
+}
+
+/* Trims Section */
+.honda-trims {
+  background: url(../images/bg-white-dotted.webp) #fff;
+}
+
+.honda-red-dot {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: red;
+}
+
+.honda-black-dot {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: black;
+}
+
+/* Footer Section */
+.honda-foot-bg {
+  background-color: var(--footer-bg);
+}
+
+.honda-foot-fc {
+  color: var(--footer-text);
+}
+
